@@ -1,0 +1,3 @@
+= Zsh config
+
+Not meant to be useful for anyone but the maintainer
