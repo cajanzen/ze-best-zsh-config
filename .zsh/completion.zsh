@@ -1,6 +1,4 @@
-# add in zsh-completions
-fpath=(/opt/boxen/homebrew/share/zsh-completions $fpath)
-
+# load compinit (zsh completer)
 autoload -U compinit && compinit                                                                                       
 zmodload -i zsh/complist
 
@@ -23,7 +21,7 @@ zstyle ':completion:*' list-prompt '%SAt %p: Hit TAB for more, or the character 
 zstyle ':completion:*' select-prompt '%SScrolling active: current selection at %p%s'
 
 # Add simple colors to kill
-zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
+# zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
 
 # list of completers to use
 zstyle ':completion:*::::' completer _expand _complete _ignored _approximate

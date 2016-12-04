@@ -18,7 +18,7 @@ setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 
 # When searching history don't display results already cycled through twice
-setopt HIST_FIND_NO_DUPS
+# setopt HIST_FIND_NO_DUPS
 
 # Remove extra blanks from each command line being added to history
 setopt HIST_REDUCE_BLANKS
@@ -37,7 +37,7 @@ setopt ALWAYS_TO_END
 # ===== Prompt
 
 # Enable parameter expansion, command substitution, and arithmetic expansion in the prompt
-setopt PROMPT_SUBST
+#setopt PROMPT_SUBST
 
 unsetopt MENU_COMPLETE
 setopt AUTO_MENU
