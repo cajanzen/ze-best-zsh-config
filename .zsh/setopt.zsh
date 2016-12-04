@@ -41,3 +41,7 @@ setopt ALWAYS_TO_END
 
 unsetopt MENU_COMPLETE
 setopt AUTO_MENU
+
+setopt PROMPT_SUBST
+setopt PROMPT_BANG
+setopt PROMPT_PERCENT
